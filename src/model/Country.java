@@ -1,7 +1,5 @@
 package model;
 
-import java.util.Set;
-
 public class Country {
 	private int id;
 	private String CountryName;

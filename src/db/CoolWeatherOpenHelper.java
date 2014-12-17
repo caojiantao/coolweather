@@ -23,8 +23,8 @@ public class CoolWeatherOpenHelper extends SQLiteOpenHelper{
 	//Country±ÌΩ®±Ì”Ôæ‰
 	public static final String CREATE_COUNTRY = "create table Country ("
 			+ "id integer primary key autoincrement, "
-			+ "province_name text, "
-			+ "province_code text, "
+			+ "country_name text, "
+			+ "country_code text, "
 			+ "city_id integer)";
 	
 	public CoolWeatherOpenHelper(Context context, String name,
